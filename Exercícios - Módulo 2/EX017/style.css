@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+*body{
+            font: normal 16px Arial, Verdana, serif;
+            text-align: justify;            
+        }
+        main{
+            background-image: linear-gradient(to right, green, violet);
+            box-shadow: 10px 5px 15px black;
+            background-attachment: fixed;
+            border-radius: 40px;       
+            padding: 5px;
+            margin: auto;
+        }
+        h1{
+            text-align: center;    
+        }
+        h2{
+            text-align: justify;       
+        }  
+        p{
+            text-align: justify;
+            text-indent: 30px;
+        } 

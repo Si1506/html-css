@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+        @font-face {
+            font-family: 'bebedera';
+            src: url('fontes/A bebedera-heavy.otf') format('opentype'), url('fontes/A Bebedera.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+
+            /* Prestar muita atenção na forma de escrita e nos espaços, pois se for colocado qualquer coisa diferente, não irá funcionar. */
+        }
+        body{
+            font-family: 'bebedera', Helvetica, sans-serif;
+        }
+
+        h1{
+            font-family: 'bebedera', Times, serif;
+            font-size: 3em;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Título</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium doloribus sapiente dolores porro officia deserunt, possimus quas dolore, esse est harum optio, magnam iusto facilis provident quam expedita. In, molestias?</p>
+</body>
+</html>

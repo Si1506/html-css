@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando o exercício 11</title>
+    <link rel="shortcut icon" href="globinho.ico" type="image/x-icon">
+</head>
+<body>
+  <h1>Usando o elemento Picture com fotos pessoais</h1> 
+  <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p> 
+ <picture>
+    <source media="(max-width: 500px)" srcset="pessoal/foto-m.png" type="image/png">
+    <source media="(max-width: 700px)" srcset="pessoal/foto-s.png" type="image/png">
+    <img src="pessoal/foto-p.png" alt="Imagem flexível">
+ </picture>
+ <h1>Reproduzindo Áudio</h1>
+ <p>Vamos aprender a reproduzir áudios em HTML5.</p>
+ <p>
+   São duas formas de inserir um áudio no seu site.
+   Logo abaixo será feita com a primeira forma.
+ </p>
+ <audio src="midia/happy-mistake.mp3" controls></audio>
+ <audio src="midia/guanacast-33.mp3" controls></audio>
+ <!--Formatos para áudio: Mp3; Wav; Ogg.-->
+<p>Agora faremos da segunda forma.</p>
+ <audio>
+  <source src="midia/guanacast-33.mp3" type="audio/mpeg">
+  <source src="midia/guanacast-33.ogg" type="audio/ogg">
+  <source src="midia/guanacast-33.wav" type="audio/wav">
+ </audio>
+</html>

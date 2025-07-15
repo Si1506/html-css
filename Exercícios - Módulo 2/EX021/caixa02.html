@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray; 
+            margin: 0px;           
+        }
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        h1 {
+            box-shadow: 2px 1px 14px 6px;
+        }
+        nav{
+            background-color: rgb(102, 100, 100);
+            padding: 3px;
+            box-shadow: 1px 1px 8px rgb(131, 4, 4);
+        }
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        nav > a:hover {
+            text-decoration: underline blue;
+            color: red;
+        }
+        /* Verificar a palavra Link */
+        
+        section > p:hover {
+            text-decoration: underline;
+            color: rgb(47, 83, 11);
+            font-weight: bold;           
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;  
+            border-radius: 20px 40px;      
+        }
+        article {
+            background-color: lightgray;
+        }
+        article > aside {
+            background-color: rgb(12, 148, 148);
+            font-weight: bold;
+
+        }
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+        footer > p {
+            margin: 0px;
+        }
+        div#bola {
+            height: 100px;
+            width: 100px;
+            background-color: yellow;
+            margin: 10px;
+            border-radius: 50px;
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes Política Tecnologia</p>
+        </section>
+
+        <section id="noticias">
+            <article>
+                <h2>Notícias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi delectus esse, libero labore totam dignissimos rem quo a, blanditiis neque quisquam maiores, voluptatibus fugiat provident dolor qui explicabo et ipsum. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni sit dignissimos vel architecto ratione, sunt distinctio rerum est atque odio amet quibusdam voluptatem quia non dolorem mollitia. Animi, ad minus?</p>
+                <aside>
+                    <p>Artigo escrito por Maria Sirlei Prestes.</p>
+                </aside>
+
+            </article>
+            <article>
+
+            </article>
+
+        </section>          
+
+    </main>
+    <footer>
+        <p>Desenvolvido por Maria Sirlei Prestes.</p>
+    </footer>
+    <div id="bola"></div>
+    
+</body>
+</html>

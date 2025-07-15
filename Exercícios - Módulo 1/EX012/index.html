@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos com HTML5</title>
+    <link rel="shortcut icon" href="midia/globinho.ico" type="image/x-icon">
+</head>
+<body>
+   <h1><mark style="background-color: rgb(135, 24, 187);">Inserindo vídeos hospedados localmente. Há duas formas.</mark>
+   </h1>
+   <p><strong>Estes vídeos estão hospedados no meu próprio servidor.</strong></p> 
+   <p>Por tags individuais</p>
+      <video src="midia/limoes.mp4" width="560" poster="imagem/limoes.jpg" controls></video>
+      <video src="midia/Coruja.webm" width="560" controls autoplay loop></video>
+   <p>Ou por sources</p>
+   <video width="560" poster="imagem/limoes.jpg" controls autoplay loop>
+      <source src="midia/limoes.mp4" type="video/mp4">
+      <source src="midia/Coruja.mp4" type="video/mp4">
+      <source src="midia/gatinho.ogv" type="video/ogg">
+      <source src="midia/Coruja.webm" type="video/webm">
+   </video>
+   <p>Seu navegador não tem compatibilidade com reprodução de vídeos.</p> <!--No caso o meu computador não rodou ogv e webm.-->
+   
+   <h1><mark style="background-color: crimson;">Inserindo vídeos do YouTube.</mark></h1>
+   <p><strong>Nesse caso, os dados consumidos serão da plataforma Youtube, e não do próprio site.</strong></p>
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/0ZuHJ1kyujk?si=W2VivYOKVMe7LBtK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/Fzlrody86Gw?si=BRrCfDIAQwN6nobd&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/UUe0-wKIWVY?si=LgSm0kQf0GaZNvki&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+   
+   <h1><mark style="background-color: rgb(155, 209, 55);">Inserindo videos do Vimeo.</mark></h1>
+   <iframe src="https://player.vimeo.com/video/57163678?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" title="SWU Passaro"></iframe>
+   <iframe src="https://player.vimeo.com/video/48153682?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" title="gatos gatos gatos"></iframe>
+</body>
+</html>
