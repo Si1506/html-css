@@ -3,16 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teste de Imagem de Fundo</title>
+    <title>Fundo Fixo de Tela</title>
     <style>
         body {
-            background-color: black;
+            height: 100vh;
+            /*background-color: black;
+            background-image: url('imagens/wallpaper002.jpg');
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;*/
+
+            /*Para tudo isso acima, use a shorthand abaixo.*/
+
+            /* Shorthand - background
+            color > image > position > repeat > attachment */
+            
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
+            background-size: cover;
         }
         main {
             background-color: white;
             width: 400px;
             padding: 10px;
-            margin: auto;        
+            margin: auto; 
+            border: 5px solid darkblue;       
+            border-radius: 15px;            
         }
     </style>
 </head>
@@ -20,7 +36,11 @@
     <main>
         <h1>Testando a Imagem de Fundo</h1>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur fuga reprehenderit, officia sit porro sint neque maxime error, explicabo commodi fugit aspernatur. Temporibus, unde doloribus tempora animi nam nostrum! Maxime? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error ipsam, ab qui inventore nesciunt facilis alias tenetur corrupti fugit ipsa porro voluptatum accusamus, vel dolores! Porro dolore id corporis optio? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit eveniet dolorem distinctio ducimus atque ab dignissimos sed, a eos reprehenderit temporibus tenetur earum placeat sequi pariatur voluptas deleniti. Autem, perferendis.</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur fuga reprehenderit, officia sit porro sint neque maxime error, explicabo commodi fugit aspernatur. Temporibus, unde doloribus tempora animi nam nostrum! Maxime? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error ipsam, ab qui inventore nesciunt facilis alias tenetur corrupti fugit ipsa porro voluptatum accusamus, vel dolores! Porro dolore id corporis optio? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit eveniet dolorem distinctio ducimus atque ab dignissimos sed, a eos reprehenderit temporibus tenetur earum placeat sequi pariatur voluptas deleniti. Autem, perferendis.</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur fuga reprehenderit, officia sit porro sint neque maxime error, explicabo commodi fugit aspernatur. Temporibus, unde doloribus tempora animi nam nostrum! Maxime? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error ipsam, ab qui inventore nesciunt facilis alias tenetur corrupti fugit ipsa porro voluptatum accusamus, vel dolores! Porro dolore id corporis optio? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit eveniet dolorem distinctio ducimus atque ab dignissimos sed, a eos reprehenderit temporibus tenetur earum placeat sequi pariatur voluptas deleniti. Autem, perferendis.</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur fuga reprehenderit, officia sit porro sint neque maxime error, explicabo commodi fugit aspernatur. Temporibus, unde doloribus tempora animi nam nostrum! Maxime? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error ipsam, ab qui inventore nesciunt facilis alias tenetur corrupti fugit ipsa porro voluptatum accusamus, vel dolores! Porro dolore id corporis optio? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit eveniet dolorem distinctio ducimus atque ab dignissimos sed, a eos reprehenderit temporibus tenetur earum placeat sequi pariatur voluptas deleniti. Autem, perferendis.</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur fuga reprehenderit, officia sit porro sint neque maxime error, explicabo commodi fugit aspernatur. Temporibus, unde doloribus tempora animi nam nostrum! Maxime? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error ipsam, ab qui inventore nesciunt facilis alias tenetur corrupti fugit ipsa porro voluptatum accusamus, vel dolores! Porro dolore id corporis optio? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit eveniet dolorem distinctio ducimus atque ab dignissimos sed, a eos reprehenderit temporibus tenetur earum placeat sequi pariatur voluptas deleniti. Autem, perferendis.</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur fuga reprehenderit, officia sit porro sint neque maxime error, explicabo commodi fugit aspernatur. Temporibus, unde doloribus tempora animi nam nostrum! Maxime? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error ipsam, ab qui inventore nesciunt facilis alias tenetur corrupti fugit ipsa porro voluptatum accusamus, vel dolores! Porro dolore id corporis optio? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit eveniet dolorem distinctio ducimus atque ab dignissimos sed, a eos reprehenderit temporibus tenetur earum placeat sequi pariatur voluptas deleniti. Autem, perferendis.</p>         
     </main>
-    
 </body>
 </html>
